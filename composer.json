@@ -1,0 +1,26 @@
+{
+    "name": "whale/hyperf-library",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "whale",
+        "hyperf",
+        "library"
+    ],
+    "description": "This is an extended library of Hyperf.",
+    "autoload": {
+        "psr-4": {
+            "Whale\\Hyperf\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
